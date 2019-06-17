@@ -1,0 +1,6 @@
+framework module Pods_SmAntiFraudSDK_Tests {
+  umbrella header "Pods-SmAntiFraudSDK_Tests-umbrella.h"
+
+  export *
+  module * { export * }
+}

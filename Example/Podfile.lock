@@ -1,0 +1,16 @@
+PODS:
+  - SmAntiFraudSDK (2.5.0)
+
+DEPENDENCIES:
+  - SmAntiFraudSDK (from `../`)
+
+EXTERNAL SOURCES:
+  SmAntiFraudSDK:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  SmAntiFraudSDK: f14657dbffa00bfc076a35bc3c65b5289a1bcda7
+
+PODFILE CHECKSUM: e40e7b6778ec271afa014f12996d60013233d37c
+
+COCOAPODS: 1.7.2

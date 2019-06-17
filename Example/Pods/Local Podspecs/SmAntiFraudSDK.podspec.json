@@ -1,0 +1,32 @@
+{
+  "name": "SmAntiFraudSDK",
+  "version": "2.5.0",
+  "summary": "SmAntiFraudSDK",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/PeterJames4719/SmAntiFraudSDK",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "PeterJames4719": "daasan123@163.com"
+  },
+  "source": {
+    "git": "https://github.com/PeterJames4719/SmAntiFraudSDK.git",
+    "tag": "2.5.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "SmAntiFraudSDK/Classes/*.{h,m}",
+  "vendored_libraries": "SmAntiFraudSDK/Classes/libSmAntiFraud.a",
+  "libraries": [
+    "sqlite3",
+    "z",
+    "resolv"
+  ],
+  "frameworks": [
+    "SystemConfiguration",
+    "Security"
+  ]
+}

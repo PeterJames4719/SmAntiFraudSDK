@@ -1,0 +1,1 @@
+../../../../../SmAntiFraudSDK/Classes/SmAntiFraud.h

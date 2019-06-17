@@ -21,9 +21,9 @@
 		6003F5BA195388D20070C39A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6003F5B8195388D20070C39A /* InfoPlist.strings */; };
 		6003F5BC195388D20070C39A /* Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6003F5BB195388D20070C39A /* Tests.m */; };
 		71719F9F1E33DC2100824A3D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 71719F9D1E33DC2100824A3D /* LaunchScreen.storyboard */; };
-		86017C5606B5C38A1CEC235B /* Pods_SmAntiFraudSDK_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 719F430BCB06401EB8AA1C12 /* Pods_SmAntiFraudSDK_Example.framework */; };
+		79C8913DC24C773C186B559D /* libPods-SmAntiFraudSDK_Tests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = FBA94B10230C0253FA7BB211 /* libPods-SmAntiFraudSDK_Tests.a */; };
 		873B8AEB1B1F5CCA007FD442 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 873B8AEA1B1F5CCA007FD442 /* Main.storyboard */; };
-		F74DDF13D9FBEB05FD433E9D /* Pods_SmAntiFraudSDK_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ED69295B02F8036FCAFC3C20 /* Pods_SmAntiFraudSDK_Tests.framework */; };
+		9D0F3A2EF25FEAE85BA4CE59 /* libPods-SmAntiFraudSDK_Example.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 20A9446C33B8CB5370D36EF0 /* libPods-SmAntiFraudSDK_Example.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,8 +38,9 @@
 
 /* Begin PBXFileReference section */
 		08A88BAA6B29ACD7A38E99F1 /* Pods-SmAntiFraudSDK_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SmAntiFraudSDK_Tests.release.xcconfig"; path = "Target Support Files/Pods-SmAntiFraudSDK_Tests/Pods-SmAntiFraudSDK_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		111D8E2DD4CD2D42350DDB67 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		111D8E2DD4CD2D42350DDB67 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		1B610F0EE2C945B3B9B6EE0A /* Pods-SmAntiFraudSDK_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SmAntiFraudSDK_Example.release.xcconfig"; path = "Target Support Files/Pods-SmAntiFraudSDK_Example/Pods-SmAntiFraudSDK_Example.release.xcconfig"; sourceTree = "<group>"; };
+		20A9446C33B8CB5370D36EF0 /* libPods-SmAntiFraudSDK_Example.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-SmAntiFraudSDK_Example.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		53E4F35CC0AD052383472B8F /* Pods-SmAntiFraudSDK_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SmAntiFraudSDK_Tests.debug.xcconfig"; path = "Target Support Files/Pods-SmAntiFraudSDK_Tests/Pods-SmAntiFraudSDK_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		6003F58A195388D20070C39A /* SmAntiFraudSDK_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SmAntiFraudSDK_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F58D195388D20070C39A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -61,12 +62,11 @@
 		6003F5BB195388D20070C39A /* Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Tests.m; sourceTree = "<group>"; };
 		606FC2411953D9B200FFA9A0 /* Tests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Tests-Prefix.pch"; sourceTree = "<group>"; };
 		71719F9E1E33DC2100824A3D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		719F430BCB06401EB8AA1C12 /* Pods_SmAntiFraudSDK_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SmAntiFraudSDK_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		89BB5DDFD05DA28B7E2F4F4A /* SmAntiFraudSDK.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = SmAntiFraudSDK.podspec; path = ../SmAntiFraudSDK.podspec; sourceTree = "<group>"; };
-		C72AB91CEEC6AD52F2B0B46A /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		89BB5DDFD05DA28B7E2F4F4A /* SmAntiFraudSDK.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = SmAntiFraudSDK.podspec; path = ../SmAntiFraudSDK.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		C72AB91CEEC6AD52F2B0B46A /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		DB37C2129AE4EDA8670F2C0D /* Pods-SmAntiFraudSDK_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SmAntiFraudSDK_Example.debug.xcconfig"; path = "Target Support Files/Pods-SmAntiFraudSDK_Example/Pods-SmAntiFraudSDK_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		ED69295B02F8036FCAFC3C20 /* Pods_SmAntiFraudSDK_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SmAntiFraudSDK_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		FBA94B10230C0253FA7BB211 /* libPods-SmAntiFraudSDK_Tests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-SmAntiFraudSDK_Tests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,7 +77,7 @@
 				6003F590195388D20070C39A /* CoreGraphics.framework in Frameworks */,
 				6003F592195388D20070C39A /* UIKit.framework in Frameworks */,
 				6003F58E195388D20070C39A /* Foundation.framework in Frameworks */,
-				86017C5606B5C38A1CEC235B /* Pods_SmAntiFraudSDK_Example.framework in Frameworks */,
+				9D0F3A2EF25FEAE85BA4CE59 /* libPods-SmAntiFraudSDK_Example.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -88,7 +88,7 @@
 				6003F5B0195388D20070C39A /* XCTest.framework in Frameworks */,
 				6003F5B2195388D20070C39A /* UIKit.framework in Frameworks */,
 				6003F5B1195388D20070C39A /* Foundation.framework in Frameworks */,
-				F74DDF13D9FBEB05FD433E9D /* Pods_SmAntiFraudSDK_Tests.framework in Frameworks */,
+				79C8913DC24C773C186B559D /* libPods-SmAntiFraudSDK_Tests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -123,8 +123,8 @@
 				6003F58F195388D20070C39A /* CoreGraphics.framework */,
 				6003F591195388D20070C39A /* UIKit.framework */,
 				6003F5AF195388D20070C39A /* XCTest.framework */,
-				719F430BCB06401EB8AA1C12 /* Pods_SmAntiFraudSDK_Example.framework */,
-				ED69295B02F8036FCAFC3C20 /* Pods_SmAntiFraudSDK_Tests.framework */,
+				20A9446C33B8CB5370D36EF0 /* libPods-SmAntiFraudSDK_Example.a */,
+				FBA94B10230C0253FA7BB211 /* libPods-SmAntiFraudSDK_Tests.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -193,7 +193,6 @@
 				53E4F35CC0AD052383472B8F /* Pods-SmAntiFraudSDK_Tests.debug.xcconfig */,
 				08A88BAA6B29ACD7A38E99F1 /* Pods-SmAntiFraudSDK_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -208,7 +207,6 @@
 				6003F586195388D20070C39A /* Sources */,
 				6003F587195388D20070C39A /* Frameworks */,
 				6003F588195388D20070C39A /* Resources */,
-				3444B5DF1007517F413C9938 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -258,6 +256,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
@@ -315,24 +314,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
-		3444B5DF1007517F413C9938 /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-SmAntiFraudSDK_Example/Pods-SmAntiFraudSDK_Example-frameworks.sh",
-				"${BUILT_PRODUCTS_DIR}/SmAntiFraudSDK/SmAntiFraudSDK.framework",
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputPaths = (
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SmAntiFraudSDK.framework",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-SmAntiFraudSDK_Example/Pods-SmAntiFraudSDK_Example-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		F081B13151C3CC403EC8369C /* [CP] Check Pods Manifest.lock */ = {

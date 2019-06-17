@@ -7,6 +7,7 @@
 //
 
 #import "WBViewController.h"
+#import <SmAntiFraud.h>
 
 @interface WBViewController ()
 
@@ -17,6 +18,10 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
+    SmOption *option = [[SmOption alloc] init];
+    [option setOrganization:@"123"];
+    [option setChannel:@"AppStore"];// 传入渠道标识
+    [[SmAntiFraud shareInstance] create:option];
 	// Do any additional setup after loading the view, typically from a nib.
 }
 
